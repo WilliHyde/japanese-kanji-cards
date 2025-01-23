@@ -1,0 +1,7 @@
+.nav {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--background);
+  box-shadow: 0 0 20px hsl(from var(--foreground) h s l / 0.1);
+  padding: 10px 0;
+}

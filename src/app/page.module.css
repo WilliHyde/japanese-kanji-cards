@@ -1,0 +1,40 @@
+.wrap {
+  align-content: center;
+}
+
+.title {
+  font-size: clamp(30px, 10vw, 50px);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: clamp(18px, 10vw, 30px);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  row-gap: 3px;
+  margin-bottom: 20px;
+ 
+  > li:before {
+    content: "-";
+    margin-right: 10px;
+    font-weight: 700;
+  }
+}
+
+.link-wrap {
+  display: flex;
+  column-gap: 15px;
+}

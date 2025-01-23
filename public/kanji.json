@@ -1,0 +1,1282 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "meaning": "one",
+    "onYomi": {
+      "katakana": "イチ",
+      "romaji": "ichi"
+    },
+    "kunYomi": {
+      "hiragana": "ひと",
+      "romaji": "hito"
+    },
+    "commonWords": [
+      "一つ (ひとつ, hitotsu) - one (counter)"
+    ]
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "meaning": "two",
+    "onYomi": {
+      "katakana": "ニ",
+      "romaji": "ni"
+    },
+    "kunYomi": {
+      "hiragana": "ふた",
+      "romaji": "futa"
+    },
+    "commonWords": [
+      "二つ (ふたつ, futatsu) - two (counter)"
+    ]
+  },
+  {
+    "id": 3,
+    "kanji": "三",
+    "meaning": "three",
+    "onYomi": {
+      "katakana": "サン",
+      "romaji": "san"
+    },
+    "kunYomi": {
+      "hiragana": "み",
+      "romaji": "mi"
+    },
+    "commonWords": [
+      "三つ (みっつ, mittsu) - three (counter)"
+    ]
+  },
+  {
+    "id": 4,
+    "kanji": "四",
+    "meaning": "four",
+    "onYomi": {
+      "katakana": "シ",
+      "romaji": "shi"
+    },
+    "kunYomi": {
+      "hiragana": "よん",
+      "romaji": "yon"
+    },
+    "commonWords": [
+      "四つ (よっつ, yottsu) - four (counter)"
+    ]
+  },
+  {
+    "id": 5,
+    "kanji": "五",
+    "meaning": "five",
+    "onYomi": {
+      "katakana": "ゴ",
+      "romaji": "go"
+    },
+    "kunYomi": {
+      "hiragana": "いつ",
+      "romaji": "itsu"
+    },
+    "commonWords": [
+      "五つ (いつつ, itsutsu) - five (counter)"
+    ]
+  },
+  {
+    "id": 6,
+    "kanji": "六",
+    "meaning": "six",
+    "onYomi": {
+      "katakana": "ロク",
+      "romaji": "roku"
+    },
+    "kunYomi": {
+      "hiragana": "む",
+      "romaji": "mu"
+    },
+    "commonWords": [
+      "六つ (むっつ, muttsu) - six (counter)"
+    ]
+  },
+  {
+    "id": 7,
+    "kanji": "七",
+    "meaning": "seven",
+    "onYomi": {
+      "katakana": "シチ",
+      "romaji": "shichi"
+    },
+    "kunYomi": {
+      "hiragana": "なな",
+      "romaji": "nana"
+    },
+    "commonWords": [
+      "七つ (ななつ, nanatsu) - seven (counter)"
+    ]
+  },
+  {
+    "id": 8,
+    "kanji": "八",
+    "meaning": "eight",
+    "onYomi": {
+      "katakana": "ハチ",
+      "romaji": "hachi"
+    },
+    "kunYomi": {
+      "hiragana": "や",
+      "romaji": "ya"
+    },
+    "commonWords": [
+      "八つ (やっつ, yattsu) - eight (counter)"
+    ]
+  },
+  {
+    "id": 9,
+    "kanji": "九",
+    "meaning": "nine",
+    "onYomi": {
+      "katakana": "キュウ／ク",
+      "romaji": "kyuu / ku"
+    },
+    "kunYomi": {
+      "hiragana": "ここの",
+      "romaji": "kokono"
+    },
+    "commonWords": [
+      "九つ (ここのつ, kokonotsu) - nine (counter)"
+    ]
+  },
+  {
+    "id": 10,
+    "kanji": "十",
+    "meaning": "ten",
+    "onYomi": {
+      "katakana": "ジュウ",
+      "romaji": "juu"
+    },
+    "kunYomi": {
+      "hiragana": "とお",
+      "romaji": "too"
+    },
+    "commonWords": [
+      "十日 (とおか, tooka) - tenth day"
+    ]
+  },
+  {
+    "id": 11,
+    "kanji": "百",
+    "meaning": "hundred",
+    "onYomi": {
+      "katakana": "ヒャク",
+      "romaji": "hyaku"
+    },
+    "kunYomi": {
+      "hiragana": "もも",
+      "romaji": "momo"
+    },
+    "commonWords": [
+      "百円 (ひゃくえん, hyaku-en) - 100 yen"
+    ]
+  },
+  {
+    "id": 12,
+    "kanji": "千",
+    "meaning": "thousand",
+    "onYomi": {
+      "katakana": "セン",
+      "romaji": "sen"
+    },
+    "kunYomi": {
+      "hiragana": "ち",
+      "romaji": "chi"
+    },
+    "commonWords": [
+      "千円 (せんえん, sen-en) - 1000 yen"
+    ]
+  },
+  {
+    "id": 13,
+    "kanji": "円",
+    "meaning": "circle, yen",
+    "onYomi": {
+      "katakana": "エン",
+      "romaji": "en"
+    },
+    "kunYomi": {
+      "hiragana": "まる",
+      "romaji": "maru"
+    },
+    "commonWords": [
+      "百円 (ひゃくえん, hyaku-en) - 100 yen"
+    ]
+  },
+  {
+    "id": 14,
+    "kanji": "日",
+    "meaning": "day, sun",
+    "onYomi": {
+      "katakana": "ニチ／ジツ",
+      "romaji": "nichi / jitsu"
+    },
+    "kunYomi": {
+      "hiragana": "ひ／か",
+      "romaji": "hi / ka"
+    },
+    "commonWords": [
+      "日本 (にほん, nihon) - Japan"
+    ]
+  },
+  {
+    "id": 15,
+    "kanji": "月",
+    "meaning": "month, moon",
+    "onYomi": {
+      "katakana": "ゲツ／ガツ",
+      "romaji": "getsu / gatsu"
+    },
+    "kunYomi": {
+      "hiragana": "つき",
+      "romaji": "tsuki"
+    },
+    "commonWords": [
+      "一月 (いちがつ, ichigatsu) - January"
+    ]
+  },
+  {
+    "id": 16,
+    "kanji": "火",
+    "meaning": "fire",
+    "onYomi": {
+      "katakana": "カ",
+      "romaji": "ka"
+    },
+    "kunYomi": {
+      "hiragana": "ひ",
+      "romaji": "hi"
+    },
+    "commonWords": [
+      "火曜日 (かようび, kayoubi) - Tuesday"
+    ]
+  },
+  {
+    "id": 17,
+    "kanji": "水",
+    "meaning": "water",
+    "onYomi": {
+      "katakana": "スイ",
+      "romaji": "sui"
+    },
+    "kunYomi": {
+      "hiragana": "みず",
+      "romaji": "mizu"
+    },
+    "commonWords": [
+      "水曜日 (すいようび, suiyoubi) - Wednesday"
+    ]
+  },
+  {
+    "id": 18,
+    "kanji": "木",
+    "meaning": "tree, wood",
+    "onYomi": {
+      "katakana": "モク／ボク",
+      "romaji": "moku / boku"
+    },
+    "kunYomi": {
+      "hiragana": "き",
+      "romaji": "ki"
+    },
+    "commonWords": [
+      "木曜日 (もくようび, mokuyoubi) - Thursday"
+    ]
+  },
+  {
+    "id": 19,
+    "kanji": "金",
+    "meaning": "gold, money",
+    "onYomi": {
+      "katakana": "キン／コン",
+      "romaji": "kin / kon"
+    },
+    "kunYomi": {
+      "hiragana": "かね",
+      "romaji": "kane"
+    },
+    "commonWords": [
+      "金曜日 (きんようび, kin'youbi) - Friday"
+    ]
+  },
+  {
+    "id": 20,
+    "kanji": "土",
+    "meaning": "earth, soil",
+    "onYomi": {
+      "katakana": "ド／ト",
+      "romaji": "do / to"
+    },
+    "kunYomi": {
+      "hiragana": "つち",
+      "romaji": "tsuchi"
+    },
+    "commonWords": [
+      "土曜日 (どようび, doyoubi) - Saturday"
+    ]
+  },
+  {
+    "id": 21,
+    "kanji": "上",
+    "meaning": "above, up",
+    "onYomi": {
+      "katakana": "ジョウ／ショウ",
+      "romaji": "jou / shou"
+    },
+    "kunYomi": {
+      "hiragana": "うえ／あ",
+      "romaji": "ue / a(garu)"
+    },
+    "commonWords": [
+      "上手 (じょうず, jouzu) - skilled"
+    ]
+  },
+  {
+    "id": 22,
+    "kanji": "下",
+    "meaning": "below, down",
+    "onYomi": {
+      "katakana": "カ／ゲ",
+      "romaji": "ka / ge"
+    },
+    "kunYomi": {
+      "hiragana": "した／さ",
+      "romaji": "shita / sa(garu)"
+    },
+    "commonWords": [
+      "地下鉄 (ちかてつ, chikatetsu) - subway"
+    ]
+  },
+  {
+    "id": 23,
+    "kanji": "左",
+    "meaning": "left",
+    "onYomi": {
+      "katakana": "サ",
+      "romaji": "sa"
+    },
+    "kunYomi": {
+      "hiragana": "ひだり",
+      "romaji": "hidari"
+    },
+    "commonWords": [
+      "左手 (ひだりて, hidari te) - left hand"
+    ]
+  },
+  {
+    "id": 24,
+    "kanji": "右",
+    "meaning": "right",
+    "onYomi": {
+      "katakana": "ウ／ユウ",
+      "romaji": "u / yuu"
+    },
+    "kunYomi": {
+      "hiragana": "みぎ",
+      "romaji": "migi"
+    },
+    "commonWords": [
+      "右手 (みぎて, migi te) - right hand"
+    ]
+  },
+  {
+    "id": 25,
+    "kanji": "小",
+    "meaning": "small",
+    "onYomi": {
+      "katakana": "ショウ",
+      "romaji": "shou"
+    },
+    "kunYomi": {
+      "hiragana": "ちい／こ",
+      "romaji": "chii / ko"
+    },
+    "commonWords": [
+      "小学生 (しょうがくせい, shougakusei) - elementary student"
+    ]
+  },
+  {
+    "id": 26,
+    "kanji": "中",
+    "meaning": "middle, inside",
+    "onYomi": {
+      "katakana": "チュウ",
+      "romaji": "chuu"
+    },
+    "kunYomi": {
+      "hiragana": "なか",
+      "romaji": "naka"
+    },
+    "commonWords": [
+      "中国 (ちゅうごく, chuugoku) - China"
+    ]
+  },
+  {
+    "id": 27,
+    "kanji": "大",
+    "meaning": "big, large",
+    "onYomi": {
+      "katakana": "ダイ／タイ",
+      "romaji": "dai / tai"
+    },
+    "kunYomi": {
+      "hiragana": "おお",
+      "romaji": "oo"
+    },
+    "commonWords": [
+      "大人 (おとな, otona) - adult"
+    ]
+  },
+  {
+    "id": 28,
+    "kanji": "白",
+    "meaning": "white",
+    "onYomi": {
+      "katakana": "ハク／ビャク",
+      "romaji": "haku / byaku"
+    },
+    "kunYomi": {
+      "hiragana": "しろ",
+      "romaji": "shiro"
+    },
+    "commonWords": [
+      "白い (しろい, shiroi) - white (adjective)"
+    ]
+  },
+  {
+    "id": 29,
+    "kanji": "青",
+    "meaning": "blue",
+    "onYomi": {
+      "katakana": "セイ／ショウ",
+      "romaji": "sei / shou"
+    },
+    "kunYomi": {
+      "hiragana": "あお",
+      "romaji": "ao"
+    },
+    "commonWords": [
+      "青い (あおい, aoi) - blue (adjective)"
+    ]
+  },
+  {
+    "id": 30,
+    "kanji": "赤",
+    "meaning": "red",
+    "onYomi": {
+      "katakana": "セキ／シャク",
+      "romaji": "seki / shaku"
+    },
+    "kunYomi": {
+      "hiragana": "あか",
+      "romaji": "aka"
+    },
+    "commonWords": [
+      "赤い (あかい, akai) - red (adjective)"
+    ]
+  },
+  {
+    "id": 31,
+    "kanji": "人",
+    "meaning": "person",
+    "onYomi": {
+      "katakana": "ジン／ニン",
+      "romaji": "jin / nin"
+    },
+    "kunYomi": {
+      "hiragana": "ひと",
+      "romaji": "hito"
+    },
+    "commonWords": [
+      "日本人 (にほんじん, nihonjin) - Japanese person"
+    ]
+  },
+  {
+    "id": 32,
+    "kanji": "女",
+    "meaning": "woman",
+    "onYomi": {
+      "katakana": "ジョ／ニョ／ニョウ",
+      "romaji": "jo / nyo / nyou"
+    },
+    "kunYomi": {
+      "hiragana": "おんな",
+      "romaji": "onna"
+    },
+    "commonWords": [
+      "女の子 (おんなのこ, onnanoko) - girl"
+    ]
+  },
+  {
+    "id": 33,
+    "kanji": "男",
+    "meaning": "man",
+    "onYomi": {
+      "katakana": "ダン／ナン",
+      "romaji": "dan / nan"
+    },
+    "kunYomi": {
+      "hiragana": "おとこ",
+      "romaji": "otoko"
+    },
+    "commonWords": [
+      "男の子 (おとこのこ, otokonoko) - boy"
+    ]
+  },
+  {
+    "id": 34,
+    "kanji": "力",
+    "meaning": "power, strength",
+    "onYomi": {
+      "katakana": "リョク／リキ",
+      "romaji": "ryoku / riki"
+    },
+    "kunYomi": {
+      "hiragana": "ちから",
+      "romaji": "chikara"
+    },
+    "commonWords": [
+      "力仕事 (ちからしごと, chikarashigoto) - physical labor"
+    ]
+  },
+  {
+    "id": 35,
+    "kanji": "子",
+    "meaning": "child",
+    "onYomi": {
+      "katakana": "シ／ス",
+      "romaji": "shi / su"
+    },
+    "kunYomi": {
+      "hiragana": "こ",
+      "romaji": "ko"
+    },
+    "commonWords": [
+      "子供 (こども, kodomo) - child"
+    ]
+  },
+  {
+    "id": 36,
+    "kanji": "口",
+    "meaning": "mouth",
+    "onYomi": {
+      "katakana": "コウ／ク",
+      "romaji": "kou / ku"
+    },
+    "kunYomi": {
+      "hiragana": "くち",
+      "romaji": "kuchi"
+    },
+    "commonWords": [
+      "入口 (いりぐち, iriguchi) - entrance"
+    ]
+  },
+  {
+    "id": 37,
+    "kanji": "手",
+    "meaning": "hand",
+    "onYomi": {
+      "katakana": "シュ",
+      "romaji": "shu"
+    },
+    "kunYomi": {
+      "hiragana": "て",
+      "romaji": "te"
+    },
+    "commonWords": [
+      "手紙 (てがみ, tegami) - letter"
+    ]
+  },
+  {
+    "id": 38,
+    "kanji": "足",
+    "meaning": "foot, leg",
+    "onYomi": {
+      "katakana": "ソク",
+      "romaji": "soku"
+    },
+    "kunYomi": {
+      "hiragana": "あし",
+      "romaji": "ashi"
+    },
+    "commonWords": [
+      "足首 (あしくび, ashikubi) - ankle"
+    ]
+  },
+  {
+    "id": 39,
+    "kanji": "目",
+    "meaning": "eye",
+    "onYomi": {
+      "katakana": "モク／ボク",
+      "romaji": "moku / boku"
+    },
+    "kunYomi": {
+      "hiragana": "め",
+      "romaji": "me"
+    },
+    "commonWords": [
+      "目薬 (めぐすり, megusuri) - eye drops"
+    ]
+  },
+  {
+    "id": 40,
+    "kanji": "耳",
+    "meaning": "ear",
+    "onYomi": {
+      "katakana": "ジ",
+      "romaji": "ji"
+    },
+    "kunYomi": {
+      "hiragana": "みみ",
+      "romaji": "mimi"
+    },
+    "commonWords": [
+      "耳鼻科 (じびか, jibika) - ENT doctor"
+    ]
+  },
+  {
+    "id": 41,
+    "kanji": "林",
+    "meaning": "woods",
+    "onYomi": {
+      "katakana": "リン",
+      "romaji": "rin"
+    },
+    "kunYomi": {
+      "hiragana": "はやし",
+      "romaji": "hayashi"
+    },
+    "commonWords": [
+      "小林 (こばやし, Kobayashi) - common surname"
+    ]
+  },
+  {
+    "id": 42,
+    "kanji": "森",
+    "meaning": "forest",
+    "onYomi": {
+      "katakana": "シン",
+      "romaji": "shin"
+    },
+    "kunYomi": {
+      "hiragana": "もり",
+      "romaji": "mori"
+    },
+    "commonWords": [
+      "森林 (しんりん, shinrin) - forest, woodlands"
+    ]
+  },
+  {
+    "id": 43,
+    "kanji": "村",
+    "meaning": "village",
+    "onYomi": {
+      "katakana": "ソン",
+      "romaji": "son"
+    },
+    "kunYomi": {
+      "hiragana": "むら",
+      "romaji": "mura"
+    },
+    "commonWords": [
+      "村人 (むらびと, murabito) - villager"
+    ]
+  },
+  {
+    "id": 44,
+    "kanji": "田",
+    "meaning": "rice field",
+    "onYomi": {
+      "katakana": "デン",
+      "romaji": "den"
+    },
+    "kunYomi": {
+      "hiragana": "た",
+      "romaji": "ta"
+    },
+    "commonWords": [
+      "田んぼ (たんぼ, tanbo) - rice paddy"
+    ]
+  },
+  {
+    "id": 45,
+    "kanji": "町",
+    "meaning": "town",
+    "onYomi": {
+      "katakana": "チョウ",
+      "romaji": "chou"
+    },
+    "kunYomi": {
+      "hiragana": "まち",
+      "romaji": "machi"
+    },
+    "commonWords": [
+      "町長 (ちょうちょう, chouchou) - town mayor"
+    ]
+  },
+  {
+    "id": 46,
+    "kanji": "山",
+    "meaning": "mountain",
+    "onYomi": {
+      "katakana": "サン／ザン",
+      "romaji": "san / zan"
+    },
+    "kunYomi": {
+      "hiragana": "やま",
+      "romaji": "yama"
+    },
+    "commonWords": [
+      "富士山 (ふじさん, fujisan) - Mt. Fuji"
+    ]
+  },
+  {
+    "id": 47,
+    "kanji": "川",
+    "meaning": "river",
+    "onYomi": {
+      "katakana": "セン",
+      "romaji": "sen"
+    },
+    "kunYomi": {
+      "hiragana": "かわ",
+      "romaji": "kawa"
+    },
+    "commonWords": [
+      "川岸 (かわぎし, kawagishi) - riverbank"
+    ]
+  },
+  {
+    "id": 48,
+    "kanji": "花",
+    "meaning": "flower",
+    "onYomi": {
+      "katakana": "カ",
+      "romaji": "ka"
+    },
+    "kunYomi": {
+      "hiragana": "はな",
+      "romaji": "hana"
+    },
+    "commonWords": [
+      "花瓶 (かびん, kabin) - vase"
+    ]
+  },
+  {
+    "id": 49,
+    "kanji": "草",
+    "meaning": "grass",
+    "onYomi": {
+      "katakana": "ソウ",
+      "romaji": "sou"
+    },
+    "kunYomi": {
+      "hiragana": "くさ",
+      "romaji": "kusa"
+    },
+    "commonWords": [
+      "草原 (そうげん, sougen) - grassland"
+    ]
+  },
+  {
+    "id": 50,
+    "kanji": "竹",
+    "meaning": "bamboo",
+    "onYomi": {
+      "katakana": "チク",
+      "romaji": "chiku"
+    },
+    "kunYomi": {
+      "hiragana": "たけ",
+      "romaji": "take"
+    },
+    "commonWords": [
+      "竹林 (ちくりん, chikurin) - bamboo grove"
+    ]
+  },
+  {
+    "id": 51,
+    "kanji": "犬",
+    "meaning": "dog",
+    "onYomi": {
+      "katakana": "ケン",
+      "romaji": "ken"
+    },
+    "kunYomi": {
+      "hiragana": "いぬ",
+      "romaji": "inu"
+    },
+    "commonWords": [
+      "子犬 (こいぬ, koinu) - puppy"
+    ]
+  },
+  {
+    "id": 52,
+    "kanji": "虫",
+    "meaning": "insect",
+    "onYomi": {
+      "katakana": "チュウ",
+      "romaji": "chuu"
+    },
+    "kunYomi": {
+      "hiragana": "むし",
+      "romaji": "mushi"
+    },
+    "commonWords": [
+      "昆虫 (こんちゅう, konchuu) - insect"
+    ]
+  },
+  {
+    "id": 53,
+    "kanji": "貝",
+    "meaning": "shellfish",
+    "onYomi": {
+      "katakana": "バイ",
+      "romaji": "bai"
+    },
+    "kunYomi": {
+      "hiragana": "かい",
+      "romaji": "kai"
+    },
+    "commonWords": [
+      "貝殻 (かいがら, kaigara) - seashell"
+    ]
+  },
+  {
+    "id": 54,
+    "kanji": "石",
+    "meaning": "stone",
+    "onYomi": {
+      "katakana": "セキ／シャク／コク",
+      "romaji": "seki / shaku / koku"
+    },
+    "kunYomi": {
+      "hiragana": "いし",
+      "romaji": "ishi"
+    },
+    "commonWords": [
+      "石鹸 (せっけん, sekken) - soap"
+    ]
+  },
+  {
+    "id": 55,
+    "kanji": "王",
+    "meaning": "king",
+    "onYomi": {
+      "katakana": "オウ",
+      "romaji": "ou"
+    },
+    "kunYomi": {
+      "hiragana": "",
+      "romaji": ""
+    },
+    "commonWords": [
+      "王様 (おうさま, ousama) - king"
+    ]
+  },
+  {
+    "id": 56,
+    "kanji": "玉",
+    "meaning": "ball, jewel",
+    "onYomi": {
+      "katakana": "ギョク",
+      "romaji": "gyoku"
+    },
+    "kunYomi": {
+      "hiragana": "たま",
+      "romaji": "tama"
+    },
+    "commonWords": [
+      "玉ねぎ (たまねぎ, tamanegi) - onion (lit. “ball onion”)"
+    ]
+  },
+  {
+    "id": 57,
+    "kanji": "正",
+    "meaning": "correct, right",
+    "onYomi": {
+      "katakana": "セイ／ショウ",
+      "romaji": "sei / shou"
+    },
+    "kunYomi": {
+      "hiragana": "ただ／まさ",
+      "romaji": "tada / masa"
+    },
+    "commonWords": [
+      "正しい (ただしい, tadashii) - correct"
+    ]
+  },
+  {
+    "id": 58,
+    "kanji": "系",
+    "meaning": "system, lineage",
+    "onYomi": {
+      "katakana": "ケイ",
+      "romaji": "kei"
+    },
+    "kunYomi": {
+      "hiragana": "",
+      "romaji": ""
+    },
+    "commonWords": [
+      "系列 (けいれつ, keiretsu) - series, system"
+    ]
+  },
+  {
+    "id": 59,
+    "kanji": "車",
+    "meaning": "car, vehicle",
+    "onYomi": {
+      "katakana": "シャ",
+      "romaji": "sha"
+    },
+    "kunYomi": {
+      "hiragana": "くるま",
+      "romaji": "kuruma"
+    },
+    "commonWords": [
+      "電車 (でんしゃ, densha) - train"
+    ]
+  },
+  {
+    "id": 60,
+    "kanji": "見",
+    "meaning": "see, look",
+    "onYomi": {
+      "katakana": "ケン",
+      "romaji": "ken"
+    },
+    "kunYomi": {
+      "hiragana": "み",
+      "romaji": "mi"
+    },
+    "commonWords": [
+      "見る (みる, miru) - to see"
+    ]
+  },
+  {
+    "id": 61,
+    "kanji": "音",
+    "meaning": "sound",
+    "onYomi": {
+      "katakana": "オン／イン",
+      "romaji": "on / in"
+    },
+    "kunYomi": {
+      "hiragana": "おと／ね",
+      "romaji": "oto / ne"
+    },
+    "commonWords": [
+      "音楽 (おんがく, ongaku) - music"
+    ]
+  },
+  {
+    "id": 62,
+    "kanji": "学",
+    "meaning": "study, learn",
+    "onYomi": {
+      "katakana": "ガク",
+      "romaji": "gaku"
+    },
+    "kunYomi": {
+      "hiragana": "まな",
+      "romaji": "mana"
+    },
+    "commonWords": [
+      "学校 (がっこう, gakkou) - school"
+    ]
+  },
+  {
+    "id": 63,
+    "kanji": "校",
+    "meaning": "school",
+    "onYomi": {
+      "katakana": "コウ",
+      "romaji": "kou"
+    },
+    "kunYomi": {
+      "hiragana": "",
+      "romaji": ""
+    },
+    "commonWords": [
+      "校庭 (こうてい, koutei) - schoolyard"
+    ]
+  },
+  {
+    "id": 64,
+    "kanji": "先",
+    "meaning": "ahead, previous",
+    "onYomi": {
+      "katakana": "セン",
+      "romaji": "sen"
+    },
+    "kunYomi": {
+      "hiragana": "さき／まず",
+      "romaji": "saki / mazu"
+    },
+    "commonWords": [
+      "先生 (せんせい, sensei) - teacher"
+    ]
+  },
+  {
+    "id": 65,
+    "kanji": "生",
+    "meaning": "life, birth",
+    "onYomi": {
+      "katakana": "セイ／ショウ",
+      "romaji": "sei / shou"
+    },
+    "kunYomi": {
+      "hiragana": "い／う／なま",
+      "romaji": "i / u / nama"
+    },
+    "commonWords": [
+      "生きる (いきる, ikiru) - to live"
+    ]
+  },
+  {
+    "id": 66,
+    "kanji": "年",
+    "meaning": "year",
+    "onYomi": {
+      "katakana": "ネン",
+      "romaji": "nen"
+    },
+    "kunYomi": {
+      "hiragana": "とし",
+      "romaji": "toshi"
+    },
+    "commonWords": [
+      "来年 (らいねん, rainen) - next year"
+    ]
+  },
+  {
+    "id": 67,
+    "kanji": "名",
+    "meaning": "name",
+    "onYomi": {
+      "katakana": "メイ／ミョウ",
+      "romaji": "mei / myou"
+    },
+    "kunYomi": {
+      "hiragana": "な",
+      "romaji": "na"
+    },
+    "commonWords": [
+      "名前 (なまえ, namae) - name"
+    ]
+  },
+  {
+    "id": 68,
+    "kanji": "字",
+    "meaning": "character, letter",
+    "onYomi": {
+      "katakana": "ジ",
+      "romaji": "ji"
+    },
+    "kunYomi": {
+      "hiragana": "あざ",
+      "romaji": "aza"
+    },
+    "commonWords": [
+      "文字 (もじ, moji) - letter, character"
+    ]
+  },
+  {
+    "id": 69,
+    "kanji": "文",
+    "meaning": "sentence, text",
+    "onYomi": {
+      "katakana": "ブン／モン",
+      "romaji": "bun / mon"
+    },
+    "kunYomi": {
+      "hiragana": "ふみ",
+      "romaji": "fumi"
+    },
+    "commonWords": [
+      "文化 (ぶんか, bunka) - culture"
+    ]
+  },
+  {
+    "id": 70,
+    "kanji": "本",
+    "meaning": "book, origin",
+    "onYomi": {
+      "katakana": "ホン",
+      "romaji": "hon"
+    },
+    "kunYomi": {
+      "hiragana": "もと",
+      "romaji": "moto"
+    },
+    "commonWords": [
+      "本屋 (ほんや, honya) - bookstore"
+    ]
+  },
+  {
+    "id": 71,
+    "kanji": "空",
+    "meaning": "sky, empty",
+    "onYomi": {
+      "katakana": "クウ",
+      "romaji": "kuu"
+    },
+    "kunYomi": {
+      "hiragana": "そら／あ",
+      "romaji": "sora / a(ku)"
+    },
+    "commonWords": [
+      "空港 (くうこう, kuukou) - airport"
+    ]
+  },
+  {
+    "id": 72,
+    "kanji": "雨",
+    "meaning": "rain",
+    "onYomi": {
+      "katakana": "ウ",
+      "romaji": "u"
+    },
+    "kunYomi": {
+      "hiragana": "あめ",
+      "romaji": "ame"
+    },
+    "commonWords": [
+      "大雨 (おおあめ, ooame) - heavy rain"
+    ]
+  },
+  {
+    "id": 73,
+    "kanji": "天",
+    "meaning": "heaven, sky",
+    "onYomi": {
+      "katakana": "テン",
+      "romaji": "ten"
+    },
+    "kunYomi": {
+      "hiragana": "あま",
+      "romaji": "ama"
+    },
+    "commonWords": [
+      "天気 (てんき, tenki) - weather"
+    ]
+  },
+  {
+    "id": 74,
+    "kanji": "気",
+    "meaning": "spirit, mind, air",
+    "onYomi": {
+      "katakana": "キ／ケ",
+      "romaji": "ki / ke"
+    },
+    "kunYomi": {
+      "hiragana": "",
+      "romaji": ""
+    },
+    "commonWords": [
+      "天気 (てんき, tenki) - weather"
+    ]
+  },
+  {
+    "id": 75,
+    "kanji": "早",
+    "meaning": "early",
+    "onYomi": {
+      "katakana": "ソウ／サッ",
+      "romaji": "sou / sa"
+    },
+    "kunYomi": {
+      "hiragana": "はや",
+      "romaji": "haya"
+    },
+    "commonWords": [
+      "早い (はやい, hayai) - early, fast"
+    ]
+  },
+  {
+    "id": 76,
+    "kanji": "入",
+    "meaning": "enter",
+    "onYomi": {
+      "katakana": "ニュウ",
+      "romaji": "nyuu"
+    },
+    "kunYomi": {
+      "hiragana": "い／はい",
+      "romaji": "i / hai"
+    },
+    "commonWords": [
+      "入る (はいる, hairu) - to enter"
+    ]
+  },
+  {
+    "id": 77,
+    "kanji": "出",
+    "meaning": "exit",
+    "onYomi": {
+      "katakana": "シュツ／スイ",
+      "romaji": "shutsu / sui"
+    },
+    "kunYomi": {
+      "hiragana": "で／だ",
+      "romaji": "de / da"
+    },
+    "commonWords": [
+      "出る (でる, deru) - to exit"
+    ]
+  },
+  {
+    "id": 78,
+    "kanji": "立",
+    "meaning": "stand",
+    "onYomi": {
+      "katakana": "リツ／リュウ",
+      "romaji": "ritsu / ryuu"
+    },
+    "kunYomi": {
+      "hiragana": "た",
+      "romaji": "ta"
+    },
+    "commonWords": [
+      "立つ (たつ, tatsu) - to stand"
+    ]
+  },
+  {
+    "id": 79,
+    "kanji": "休",
+    "meaning": "rest",
+    "onYomi": {
+      "katakana": "キュウ",
+      "romaji": "kyuu"
+    },
+    "kunYomi": {
+      "hiragana": "やす",
+      "romaji": "yasu"
+    },
+    "commonWords": [
+      "休む (やすむ, yasumu) - to rest"
+    ]
+  },
+  {
+    "id": 80,
+    "kanji": "夕",
+    "meaning": "evening",
+    "onYomi": {
+      "katakana": "セキ",
+      "romaji": "seki"
+    },
+    "kunYomi": {
+      "hiragana": "ゆう",
+      "romaji": "yuu"
+    },
+    "commonWords": [
+      "夕方 (ゆうがた, yuugata) - early evening"
+    ]
+  }
+]
