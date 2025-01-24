@@ -12,7 +12,7 @@ const kanjiData: Kanji[] = await fetchKanjiData();
 
 export async function generateStaticParams() {
   return kanjiData.map((kanji) => ({
-    kanji: encodeURIComponent(kanji.kanji),
+    kanji: decodeURIComponent(kanji.kanji),
   }));
 }
 
