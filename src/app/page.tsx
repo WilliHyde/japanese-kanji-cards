@@ -24,7 +24,7 @@ export default async function Home() {
           <strong>Random Kanji:</strong> Test yourself with a random Kanji button for quick practice.
         </li>
         <li className={clsx(styles['list-item'])}>
-          <strong>Complete Details:</strong> Learn each Kanji's meanings, pronunciations, and common words.
+          <strong>Complete Details:</strong> Learn each Kanji&apos;s meanings, pronunciations, and common words.
         </li>
         <li className={clsx(styles['list-item'])}>
           <strong>Romanji Support:</strong> See Romanji to help with pronunciation.

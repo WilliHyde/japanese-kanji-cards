@@ -38,11 +38,11 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
         <dl className={clsx(styles['kanji-info'])}>
           <dt className={clsx(styles.dt)}>Meaning</dt>
           <dd className={clsx(styles.dd)}>{kanjiInfo.meaning}</dd>
-          <dt className={clsx(styles.dt)}>On'yomi</dt>
+          <dt className={clsx(styles.dt)}>On&apos;yomi</dt>
           <dd className={clsx(styles.dd)}>
             {kanjiInfo.onYomi.katakana} ({kanjiInfo.onYomi.romaji})
           </dd>
-          <dt className={clsx(styles.dt)}>Kun'yomi</dt> 
+          <dt className={clsx(styles.dt)}>Kun&apos;yomi</dt> 
           <dd className={clsx(styles.dd)}>
             {kanjiInfo.kunYomi.hiragana} ({kanjiInfo.kunYomi.romaji})
           </dd>
