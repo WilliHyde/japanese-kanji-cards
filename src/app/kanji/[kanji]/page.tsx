@@ -11,7 +11,7 @@ import { ArrowLeft, ArrowRight, Dices, Grid3x3 } from "lucide-react";
 export async function generateMetadata({ params }: { params: { kanji: string } }) {
   let kanjiCharacter: string;
   try {
-    kanjiCharacter = decodeURIComponent((await params).kanji);
+    kanjiCharacter = decodeURIComponent(params.kanji);
   } catch (e) {
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: { params: { kanji: string } }
 export default async function Page({
   params,
 }: {
-  params: Promise<{ kanji: string }>;
+  params: { kanji: string };
 }) {
   let kanjiCharacter: string;
   try {
-    kanjiCharacter = decodeURIComponent((await params).kanji);
+    kanjiCharacter = decodeURIComponent(params.kanji);
   } catch (e) {
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
