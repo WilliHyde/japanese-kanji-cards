@@ -1,6 +1,7 @@
-export async function fetchKanjiData() {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/kanji.json`);
-  const kanjiData = await response.json();
 
-  return kanjiData
+import { promises as fs } from 'fs';
+
+export async function fetchKanjiData() {
+  const kanjiFile = await fs.readFile(process.cwd() + '/src/app/data/kanji.json', 'utf8');
+  return JSON.parse(kanjiFile);
 }

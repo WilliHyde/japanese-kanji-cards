@@ -1,4 +1,3 @@
-import { fetchKanjiData } from "@/utils/fetchKanjiData";
 import Link from "next/link";
 import { Kanji } from "@/types/kanji";
 import { BASE_TITLE } from "@/config/constants";
@@ -7,6 +6,7 @@ import { clsx } from 'clsx';
 import Navigation from "@/components/Navigation/Navigation";
 import NavLink from "@/components/NavLink/NavLink";
 import { Dices, House } from "lucide-react";
+import { fetchKanjiData } from "@/utils/fetchKanjiData";
 
 export async function generateMetadata() {
   return {

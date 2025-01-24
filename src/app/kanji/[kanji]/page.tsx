@@ -1,4 +1,3 @@
-import { fetchKanjiData } from "@/utils/fetchKanjiData";
 import { Kanji } from "@/types/kanji";
 import { BASE_TITLE } from "@/config/constants";
 import styles from "./page.module.css";
@@ -7,6 +6,15 @@ import KanjiCard from "@/components/KanjiCard/KanjiCard";
 import Navigation from "@/components/Navigation/Navigation";
 import NavLink from "@/components/NavLink/NavLink";
 import { ArrowLeft, ArrowRight, Dices, Grid3x3 } from "lucide-react";
+import { fetchKanjiData } from "@/utils/fetchKanjiData";
+
+const kanjiData: Kanji[] = await fetchKanjiData();
+
+export async function generateStaticParams() {
+  return kanjiData.map((kanji) => ({
+    kanji: encodeURIComponent(kanji.kanji),
+  }));
+}
 
 export async function generateMetadata({ 
   params 
@@ -20,7 +28,7 @@ export async function generateMetadata({
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
   }
-  const kanjiData: Kanji[] = await fetchKanjiData();
+  
   const kanjiInfo = kanjiData.find((item) => item.kanji === kanjiCharacter);
 
   return {
@@ -41,7 +49,7 @@ export default async function Page({
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
   }
-  const kanjiData: Kanji[] = await fetchKanjiData();
+
   const kanjiInfo = kanjiData.find((item) => item.kanji === kanjiCharacter);
 
   const randomKanji = kanjiData[Math.floor(Math.random() * kanjiData.length)];
