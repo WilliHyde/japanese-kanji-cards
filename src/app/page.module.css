@@ -27,7 +27,7 @@
   row-gap: 3px;
   margin-bottom: 20px;
  
-  > li:before {
+  .list-item:before {
     content: "-";
     margin-right: 10px;
     font-weight: 700;

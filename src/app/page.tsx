@@ -17,10 +17,18 @@ export default async function Home() {
       </p>
       <h2 className={clsx(styles['sub-title'])}>Features:</h2>
       <ul className={clsx(styles.list)}>
-        <li><strong>Comprehensive List:</strong> Explore all 80 Kanji with detailed information.</li>
-        <li><strong>Random Kanji:</strong> Test yourself with a random Kanji button for quick practice.</li>
-        <li><strong>Complete Details:</strong> Learn each Kanji's meanings, pronunciations, and common words.</li>
-        <li><strong>Romanji Support:</strong> See Romanji to help with pronunciation.</li>
+        <li className={clsx(styles['list-item'])}>
+          <strong>Comprehensive List:</strong> Explore all 80 Kanji with detailed information.
+        </li>
+        <li className={clsx(styles['list-item'])}>
+          <strong>Random Kanji:</strong> Test yourself with a random Kanji button for quick practice.
+        </li>
+        <li className={clsx(styles['list-item'])}>
+          <strong>Complete Details:</strong> Learn each Kanji's meanings, pronunciations, and common words.
+        </li>
+        <li className={clsx(styles['list-item'])}>
+          <strong>Romanji Support:</strong> See Romanji to help with pronunciation.
+        </li>
       </ul>
       <div className={clsx(styles['link-wrap'])}>
         <ButtonLink href="/kanji">

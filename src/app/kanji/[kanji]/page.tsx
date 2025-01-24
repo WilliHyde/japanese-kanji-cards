@@ -56,6 +56,7 @@ export default async function Page({
             href={`/kanji/${prevKanji.kanji}`}
             ariaLabel="Previous Kanji"
             disabled={!kanjiInfo}
+            className={clsx(styles['prev-btn'])}
           >
             <ArrowLeft />
           </NavLink>
@@ -71,6 +72,7 @@ export default async function Page({
             href={`/kanji/${nextKanji.kanji}`}
             ariaLabel="Next Kanji"  
             disabled={!kanjiInfo}
+            className={clsx(styles['next-btn'])}
           >
             <ArrowRight />
           </NavLink>

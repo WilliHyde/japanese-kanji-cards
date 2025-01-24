@@ -7,15 +7,16 @@ interface NavLinkProps extends LinkProps {
   ariaLabel?: string;
   disabled?: boolean;
   children: ReactNode;
+  className?: string;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ href, disabled, ariaLabel, children }) => {
+const NavLink: React.FC<NavLinkProps> = ({ href, disabled, ariaLabel, children, className }) => {
   return (
     <Link 
       aria-label={ariaLabel ?? ariaLabel}
       aria-disabled={disabled} 
       tabIndex={disabled ? -1 : undefined}
-      className={clsx(styles.link, { [styles.disabled]: disabled })}
+      className={clsx(styles.link, className, { [styles.disabled]: disabled })}
       href={href}
     >
       {children}

@@ -1,11 +1,12 @@
 .nav {
   display: flex;
   column-gap: 10px;
+}
 
-  a:first-child {
-    margin-right: auto;
-  }
-  a:last-child {
-    margin-left: auto;
-  }
+.prev-btn {
+  margin-right: auto;
+}
+
+.next-btn {
+  margin-left: auto;
 }
