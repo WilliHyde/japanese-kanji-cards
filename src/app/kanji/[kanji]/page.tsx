@@ -8,10 +8,14 @@ import Navigation from "@/components/Navigation/Navigation";
 import NavLink from "@/components/NavLink/NavLink";
 import { ArrowLeft, ArrowRight, Dices, Grid3x3 } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: { kanji: string } }) {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: Promise<{ kanji: string }>;
+}) {
   let kanjiCharacter: string;
   try {
-    kanjiCharacter = decodeURIComponent(params.kanji);
+    kanjiCharacter = decodeURIComponent((await params).kanji);
   } catch (e) {
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
@@ -28,11 +32,11 @@ export async function generateMetadata({ params }: { params: { kanji: string } }
 export default async function Page({
   params,
 }: {
-  params: { kanji: string };
+  params: Promise<{ kanji: string }>;
 }) {
   let kanjiCharacter: string;
   try {
-    kanjiCharacter = decodeURIComponent(params.kanji);
+    kanjiCharacter = decodeURIComponent((await params).kanji);
   } catch (e) {
     console.error('Invalid kanji parameter:', e);
     kanjiCharacter = '';
