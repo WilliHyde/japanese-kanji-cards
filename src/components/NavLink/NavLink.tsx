@@ -3,7 +3,7 @@ import styles from "./NavLink.module.css";
 import Link, { LinkProps } from 'next/link';
 import { clsx } from 'clsx';
 
-interface NavLinkProps extends LinkProps {
+export interface NavLinkProps extends LinkProps {
   ariaLabel?: string;
   disabled?: boolean;
   children: ReactNode;

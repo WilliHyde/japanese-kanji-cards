@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import styles from "./KanjiCard.module.css";
 import { clsx } from 'clsx';
 import { Kanji } from '@/types/kanji';
-import { HeartCrack, Rotate3d } from 'lucide-react';
-import Button from '../Button/Button';
+import { EyeOff, HeartCrack } from 'lucide-react';
+import Button, { ButtonSize } from '../Button/Button';
 
 interface KanjiCardProps {
   kanjiInfo: Kanji | undefined;
@@ -29,12 +29,10 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
         <h1 className={clsx(styles.title)}>{kanjiInfo.kanji}</h1>
       </button>
       <div className={clsx(styles.back)}>
-        <button
-          className={clsx(styles['kanji-flip-btn'])}
-          onClick={() => setCardPosition(!cardPosition)}
-        >
+        <div className={clsx(styles['kanji-characters'])}>
           <h2 className={clsx(styles['sub-title'])}>{kanjiInfo.kanji}</h2>
-        </button>
+          <h2 className={clsx(styles['kanji-stroke'])}>{kanjiInfo.kanji}</h2>
+        </div>
         <dl className={clsx(styles['kanji-info'])}>
           <dt className={clsx(styles.dt)}>Meaning</dt>
           <dd className={clsx(styles.dd)}>{kanjiInfo.meaning}</dd>
@@ -46,16 +44,16 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
           <dd className={clsx(styles.dd)}>
             {kanjiInfo.kunYomi.hiragana} ({kanjiInfo.kunYomi.romaji})
           </dd>
-          <dt className={clsx(styles.dt)}>Common Words</dt>
-          <dd className={clsx(styles.dd)}>
+          <dt className={clsx(styles.dt)}>Words</dt>
+          <dd className={clsx(styles.dd, styles['common-words'])}>
             {kanjiInfo.commonWords.map((word, index) => (
-              <span key={index}>{word}</span>
+              <span className={clsx(styles.word)} key={index}>{word}</span>
             ))}
           </dd>
         </dl>
-        <Button onClick={() => setCardPosition(!cardPosition)}>
-          <Rotate3d />
-          <span>Flip</span>
+        <Button size={ButtonSize.Large} onClick={() => setCardPosition(!cardPosition)}>
+          <EyeOff />
+          <span>Hide Answer</span>
         </Button>
       </div>
     </div>

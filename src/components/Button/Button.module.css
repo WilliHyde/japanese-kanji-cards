@@ -8,13 +8,21 @@
   font-weight: 700;
   font-size: clamp(14px, 3vw, 18px);
   background-color: var(--background);
-  box-shadow: 0 0 20px hsl(from var(--foreground) h s l / 0.1);
-  transition: background-color 250ms ease-in-out;
+  box-shadow: var(--btn-box-shadow);
+  transition: var(--btn-box-shadow-transition);
   cursor: pointer;
+
+  &.is-large {
+    padding: 15px 20px;
+    font-size: clamp(20px, 5vw, 24px);
+  }
 
   &:hover,
   &:focus-visible {
-    background-color: hsl(from var(--accent) h s l / 0.25);
+    box-shadow: var(--btn-box-shadow-hover);
     outline: unset;
+  }
+  &:active {
+    box-shadow: var(--btn-box-shadow-active);
   }
 }

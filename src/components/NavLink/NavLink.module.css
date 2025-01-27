@@ -4,6 +4,7 @@
   border-radius: 5px;
   column-gap: 5px;
   font-weight: 700;
+  transition: var(--btn-box-shadow-transition);
 
   &.disabled {
     opacity: 0.45;
@@ -12,7 +13,10 @@
 
   &:hover,
   &:focus-visible {
-    background-color: hsl(from var(--accent) h s l / 0.25);
+    box-shadow: var(--btn-box-shadow-hover);
     outline: unset;
+  }
+  &:active {
+    box-shadow: var(--btn-box-shadow-active);
   }
 }

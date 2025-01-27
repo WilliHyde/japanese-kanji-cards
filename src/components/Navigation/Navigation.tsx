@@ -1,5 +1,3 @@
-'use client'
-
 import React, { ReactNode } from 'react';
 import styles from "./Navigation.module.css";
 import { clsx } from 'clsx';

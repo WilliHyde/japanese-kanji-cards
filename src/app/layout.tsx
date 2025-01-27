@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 import { Noto_Sans, Noto_Sans_JP } from "next/font/google";
 import { BASE_TITLE } from "@/config/constants";
+import localFont from 'next/font/local'
 import "./globals.css";
 import clsx from "clsx";
+import { NextFontWithVariable } from "next/dist/compiled/@next/font";
+
+// Font files can be colocated inside of `pages`
+const kanjiStrokeOrders: NextFontWithVariable = localFont({ 
+  src: './fonts/KanjiStrokeOrders.woff2',
+  variable: "--font-kanji-stroke-orders"
+});
 
 const notoSans = Noto_Sans({
   variable: "--font-noto-sans",
@@ -18,6 +26,7 @@ export const metadata: Metadata = {
   title: BASE_TITLE,
   description: "Japanese 2 Kanji Flashcard Learning App",
 };
+ 
 
 export default function RootLayout({
   children,
@@ -26,7 +35,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(`${notoSans.variable} ${notoSansJp.variable}`)}>
+      <body className={clsx(`
+        ${notoSans.variable}
+        ${notoSansJp.variable} 
+        ${kanjiStrokeOrders.variable}
+      `)}>
         <div className={clsx('g-layout g-wrap')}>{children}</div>
       </body>
     </html>

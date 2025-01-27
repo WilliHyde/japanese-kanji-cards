@@ -5,14 +5,17 @@ import { clsx } from 'clsx';
 import KanjiCard from "@/components/KanjiCard/KanjiCard";
 import Navigation from "@/components/Navigation/Navigation";
 import NavLink from "@/components/NavLink/NavLink";
-import { ArrowLeft, ArrowRight, Dices, Grid3x3 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Dices, Grid3x3, House } from "lucide-react";
 import { fetchKanjiData } from "@/utils/fetchKanjiData";
 
 const kanjiData: Kanji[] = await fetchKanjiData();
 
+const isDevEnv = process.env.NODE_ENV === 'development';
+
 export async function generateStaticParams() {
   return kanjiData.map((kanji) => ({
-    kanji: decodeURIComponent(kanji.kanji),
+    kanji: isDevEnv ? 
+      encodeURIComponent(kanji.kanji) : decodeURIComponent(kanji.kanji),
   }));
 }
 
@@ -72,13 +75,14 @@ export default async function Page({
           >
             <ArrowLeft />
           </NavLink>
-          <NavLink href="/kanji">
-            <Grid3x3 />
-            <span>List</span>
+          <NavLink href="/" ariaLabel="Home">
+            <House />
           </NavLink>
-          <NavLink href={`/kanji/${randomKanji.kanji}`}>
+          <NavLink href="/kanji" ariaLabel="Kanji List">
+            <Grid3x3 />
+          </NavLink>
+          <NavLink href={`/kanji/${randomKanji.kanji}`} ariaLabel="Random Kanji">
             <Dices />
-            <span>Random</span>
           </NavLink>
           <NavLink
             href={`/kanji/${nextKanji.kanji}`}

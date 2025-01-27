@@ -2,7 +2,13 @@
   color-scheme: light dark;
   --background: light-dark(#fefefe, #181818);
   --foreground: light-dark(#181818, #fefefe);
-  --accent: light-dark(#7d32db, #440f87);
+
+  --btn-box-shadow-transition: box-shadow 250ms ease-in-out;
+  --btn-box-shadow: 0 0 20px hsl(from var(--foreground) h s l / 0.1);
+  --btn-box-shadow-hover:
+      0 0 0 1px hsl(from var(--foreground) h s l / 0.18), 
+      0 0 15px hsl(from var(--foreground) h s l / 0.1);
+  --btn-box-shadow-active: inset 0 0 5px hsl(from var(--foreground) h s l / 0.18);
 }
 
 html,
@@ -32,6 +38,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+  font-family: var(--font-noto-sans-jp), var(--font-noto-sans), system-ui;
 }
 
 @media (prefers-color-scheme: dark) {

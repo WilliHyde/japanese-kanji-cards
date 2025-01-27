@@ -11,25 +11,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-
-    .sub-title {
-      font-size: 100px;
-      line-height: 1;
-    }
-    .kanji-flip-btn {
-      cursor: pointer;
-      background-color: transparent;
-      border: unset;
-      border-radius: 15px;
-      padding: 10px;
-      transition: background-color 250ms ease-in-out;
-
-      &:hover,
-      &:focus-visible {
-        background-color: hsl(from var(--accent) h s l / 0.25);
-        outline: unset;
-      }
-    }
+    margin: 30px 0;
   }
   .front {
     display: flex;
@@ -39,17 +21,16 @@
     border-radius: 30px;
     background-color: transparent;
     border: unset;
-    transition: background-color 250ms ease-in-out;
+    transition: var(--btn-box-shadow-transition);
     cursor: pointer;
 
-    .title {
-      font-size: clamp(150px, 25vw, 250px);
-      line-height: 1;
-    }
     &:hover,
     &:focus-visible {
-      background-color: hsl(from var(--accent) h s l / 0.25);
+      box-shadow: var(--btn-box-shadow-hover);
       outline: unset;
+    }
+    &:active {
+      box-shadow: var(--btn-box-shadow-active);
     }
   }
 
@@ -73,6 +54,24 @@
   }
 }
 
+.kanji-characters {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-size: clamp(80px, 25vw, 180px);
+  line-height: 1.2;
+  align-content: center;
+}
+
+.title {
+  font-size: clamp(150px, 25vw, 300px);
+  line-height: 1.2;
+}
+
+.kanji-stroke {
+  font-family: var(--font-kanji-stroke-orders);
+}
+
 .kanji-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -87,5 +86,19 @@
   .dd {
     text-align: left;
     padding-left: 15px;
+  }
+  .common-words {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+  }
+  .word:before {
+    content: "•";
+    margin-right: 10px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr 2fr;
   }
 }

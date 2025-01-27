@@ -12,7 +12,10 @@
       "romaji": "hito"
     },
     "commonWords": [
-      "一つ (ひとつ, hitotsu) - one (counter)"
+      "一つ (ひとつ, hitotsu) - one (counter)",
+      "一人 (ひとり, hitori) - one person",
+      "一日 (いちにち, ichinichi) - one day",
+      "一日 (ついたち, tsuitachi) - first day of the month"
     ]
   },
   {
@@ -28,7 +31,9 @@
       "romaji": "futa"
     },
     "commonWords": [
-      "二つ (ふたつ, futatsu) - two (counter)"
+      "二つ (ふたつ, futatsu) - two (counter)",
+      "二人 (ふたり, futari) - two people",
+      "二日 (ふつか, futsuka) - second day of the month"
     ]
   },
   {
@@ -44,7 +49,9 @@
       "romaji": "mi"
     },
     "commonWords": [
-      "三つ (みっつ, mittsu) - three (counter)"
+      "三つ (みっつ, mittsu) - three (counter)",
+      "三日 (みっか, mikka) - third day of the month",
+      "三人 (さんにん, sannin) - three people"
     ]
   },
   {
@@ -60,7 +67,9 @@
       "romaji": "yon"
     },
     "commonWords": [
-      "四つ (よっつ, yottsu) - four (counter)"
+      "四つ (よっつ, yottsu) - four (counter)",
+      "四人 (よにん, yonin) - four people",
+      "四日 (よっか, yokka) - fourth day of the month"
     ]
   },
   {
@@ -76,7 +85,9 @@
       "romaji": "itsu"
     },
     "commonWords": [
-      "五つ (いつつ, itsutsu) - five (counter)"
+      "五つ (いつつ, itsutsu) - five (counter)",
+      "五日 (いつか, itsuka) - fifth day of the month",
+      "五月 (ごがつ, gogatsu) - May"
     ]
   },
   {
@@ -92,7 +103,9 @@
       "romaji": "mu"
     },
     "commonWords": [
-      "六つ (むっつ, muttsu) - six (counter)"
+      "六つ (むっつ, muttsu) - six (counter)",
+      "六日 (むいか, muika) - sixth day of the month",
+      "六月 (ろくがつ, rokugatsu) - June"
     ]
   },
   {
@@ -108,7 +121,9 @@
       "romaji": "nana"
     },
     "commonWords": [
-      "七つ (ななつ, nanatsu) - seven (counter)"
+      "七つ (ななつ, nanatsu) - seven (counter)",
+      "七日 (なのか, nanoka) - seventh day of the month",
+      "七夕 (たなばた, tanabata) - Star Festival"
     ]
   },
   {
@@ -124,7 +139,9 @@
       "romaji": "ya"
     },
     "commonWords": [
-      "八つ (やっつ, yattsu) - eight (counter)"
+      "八つ (やっつ, yattsu) - eight (counter)",
+      "八日 (ようか, youka) - eighth day of the month",
+      "八百屋 (やおや, yaoya) - greengrocer"
     ]
   },
   {
@@ -140,7 +157,9 @@
       "romaji": "kokono"
     },
     "commonWords": [
-      "九つ (ここのつ, kokonotsu) - nine (counter)"
+      "九つ (ここのつ, kokonotsu) - nine (counter)",
+      "九日 (ここのか, kokonoka) - ninth day of the month",
+      "九月 (くがつ, kugatsu) - September"
     ]
   },
   {
@@ -156,7 +175,9 @@
       "romaji": "too"
     },
     "commonWords": [
-      "十日 (とおか, tooka) - tenth day"
+      "十日 (とおか, tooka) - tenth day",
+      "十 (とお, too) - ten (traditional counting)",
+      "十分 (じゅうぶん, juubun) - enough, sufficient"
     ]
   },
   {
@@ -172,7 +193,9 @@
       "romaji": "momo"
     },
     "commonWords": [
-      "百円 (ひゃくえん, hyaku-en) - 100 yen"
+      "百円 (ひゃくえん, hyaku-en) - 100 yen",
+      "百 (ひゃく, hyaku) - hundred",
+      "数百 (すうひゃく, suuhyaku) - several hundreds"
     ]
   },
   {
@@ -188,7 +211,9 @@
       "romaji": "chi"
     },
     "commonWords": [
-      "千円 (せんえん, sen-en) - 1000 yen"
+      "千円 (せんえん, sen-en) - 1000 yen",
+      "千円札 (せんえんさつ, sen-ensatsu) - 1000 yen bill",
+      "三千 (さんぜん, sanzen) - three thousand"
     ]
   },
   {
@@ -204,7 +229,9 @@
       "romaji": "maru"
     },
     "commonWords": [
-      "百円 (ひゃくえん, hyaku-en) - 100 yen"
+      "百円 (ひゃくえん, hyaku-en) - 100 yen",
+      "円 (えん, en) - yen",
+      "円高 (えんだか, endaka) - strong yen"
     ]
   },
   {
@@ -220,7 +247,9 @@
       "romaji": "hi / ka"
     },
     "commonWords": [
-      "日本 (にほん, nihon) - Japan"
+      "日本 (にほん, nihon) - Japan",
+      "日曜日 (にちようび, nichiyoubi) - Sunday",
+      "休日 (きゅうじつ, kyuujitsu) - holiday"
     ]
   },
   {
@@ -236,7 +265,9 @@
       "romaji": "tsuki"
     },
     "commonWords": [
-      "一月 (いちがつ, ichigatsu) - January"
+      "一月 (いちがつ, ichigatsu) - January",
+      "月曜日 (げつようび, getsuyoubi) - Monday",
+      "月見 (つきみ, tsukimi) - moon viewing"
     ]
   },
   {
@@ -252,7 +283,9 @@
       "romaji": "hi"
     },
     "commonWords": [
-      "火曜日 (かようび, kayoubi) - Tuesday"
+      "火曜日 (かようび, kayoubi) - Tuesday",
+      "火事 (かじ, kaji) - fire (disaster)",
+      "花火 (はなび, hanabi) - fireworks"
     ]
   },
   {
@@ -268,7 +301,9 @@
       "romaji": "mizu"
     },
     "commonWords": [
-      "水曜日 (すいようび, suiyoubi) - Wednesday"
+      "水曜日 (すいようび, suiyoubi) - Wednesday",
+      "水道 (すいどう, suidou) - water supply",
+      "飲み水 (のみみず, nomimizu) - drinking water"
     ]
   },
   {
@@ -284,7 +319,9 @@
       "romaji": "ki"
     },
     "commonWords": [
-      "木曜日 (もくようび, mokuyoubi) - Thursday"
+      "木曜日 (もくようび, mokuyoubi) - Thursday",
+      "木材 (もくざい, mokuzai) - lumber",
+      "木陰 (こかげ, kokage) - shade of a tree"
     ]
   },
   {
@@ -300,7 +337,9 @@
       "romaji": "kane"
     },
     "commonWords": [
-      "金曜日 (きんようび, kin'youbi) - Friday"
+      "金曜日 (きんようび, kin'youbi) - Friday",
+      "お金 (おかね, okane) - money",
+      "金持ち (かねもち, kanemochi) - rich person"
     ]
   },
   {
@@ -316,7 +355,9 @@
       "romaji": "tsuchi"
     },
     "commonWords": [
-      "土曜日 (どようび, doyoubi) - Saturday"
+      "土曜日 (どようび, doyoubi) - Saturday",
+      "土産 (みやげ, miyage) - souvenir (お土産)",
+      "土地 (とち, tochi) - land"
     ]
   },
   {
@@ -332,7 +373,9 @@
       "romaji": "ue / a(garu)"
     },
     "commonWords": [
-      "上手 (じょうず, jouzu) - skilled"
+      "上手 (じょうず, jouzu) - skilled",
+      "上がる (あがる, agaru) - to go up",
+      "上下 (じょうげ, jouge) - up and down"
     ]
   },
   {
@@ -348,7 +391,9 @@
       "romaji": "shita / sa(garu)"
     },
     "commonWords": [
-      "地下鉄 (ちかてつ, chikatetsu) - subway"
+      "地下鉄 (ちかてつ, chikatetsu) - subway",
+      "下がる (さがる, sagaru) - to go down",
+      "下手 (へた, heta) - unskilled"
     ]
   },
   {
@@ -364,7 +409,9 @@
       "romaji": "hidari"
     },
     "commonWords": [
-      "左手 (ひだりて, hidari te) - left hand"
+      "左手 (ひだりて, hidari te) - left hand",
+      "左利き (ひだりきき, hidarikiki) - left-handed",
+      "左右 (さゆう, sayuu) - left and right"
     ]
   },
   {
@@ -380,7 +427,9 @@
       "romaji": "migi"
     },
     "commonWords": [
-      "右手 (みぎて, migi te) - right hand"
+      "右手 (みぎて, migi te) - right hand",
+      "右側 (みぎがわ, migigawa) - right side",
+      "右折 (うせつ, usetsu) - turn right"
     ]
   },
   {
@@ -396,7 +445,9 @@
       "romaji": "chii / ko"
     },
     "commonWords": [
-      "小学生 (しょうがくせい, shougakusei) - elementary student"
+      "小学生 (しょうがくせい, shougakusei) - elementary student",
+      "小さい (ちいさい, chiisai) - small",
+      "小学校 (しょうがっこう, shougakkou) - elementary school"
     ]
   },
   {
@@ -412,7 +463,9 @@
       "romaji": "naka"
     },
     "commonWords": [
-      "中国 (ちゅうごく, chuugoku) - China"
+      "中国 (ちゅうごく, chuugoku) - China",
+      "中学校 (ちゅうがっこう, chuugakkou) - junior high school",
+      "真ん中 (まんなか, man'naka) - center, middle"
     ]
   },
   {
@@ -428,7 +481,9 @@
       "romaji": "oo"
     },
     "commonWords": [
-      "大人 (おとな, otona) - adult"
+      "大人 (おとな, otona) - adult",
+      "大きい (おおきい, ookii) - big",
+      "大学 (だいがく, daigaku) - university"
     ]
   },
   {
@@ -444,7 +499,9 @@
       "romaji": "shiro"
     },
     "commonWords": [
-      "白い (しろい, shiroi) - white (adjective)"
+      "白い (しろい, shiroi) - white (adjective)",
+      "白紙 (はくし, hakushi) - blank paper",
+      "面白い (おもしろい, omoshiroi) - interesting/funny"
     ]
   },
   {
@@ -460,7 +517,9 @@
       "romaji": "ao"
     },
     "commonWords": [
-      "青い (あおい, aoi) - blue (adjective)"
+      "青い (あおい, aoi) - blue (adjective)",
+      "青空 (あおぞら, aozora) - blue sky",
+      "青年 (せいねん, seinen) - youth, young man"
     ]
   },
   {
@@ -476,7 +535,9 @@
       "romaji": "aka"
     },
     "commonWords": [
-      "赤い (あかい, akai) - red (adjective)"
+      "赤い (あかい, akai) - red (adjective)",
+      "赤ちゃん (あかちゃん, akachan) - baby",
+      "赤字 (あかじ, akaji) - deficit, being in the red"
     ]
   },
   {
@@ -492,7 +553,10 @@
       "romaji": "hito"
     },
     "commonWords": [
-      "日本人 (にほんじん, nihonjin) - Japanese person"
+      "日本人 (にほんじん, nihonjin) - Japanese person",
+      "一人 (ひとり, hitori) - one person",
+      "人口 (じんこう, jinkou) - population",
+      "人気 (にんき, ninki) - popularity"
     ]
   },
   {
@@ -508,7 +572,9 @@
       "romaji": "onna"
     },
     "commonWords": [
-      "女の子 (おんなのこ, onnanoko) - girl"
+      "女の子 (おんなのこ, onnanoko) - girl",
+      "彼女 (かのじょ, kanojo) - she/girlfriend",
+      "女性 (じょせい, josei) - woman"
     ]
   },
   {
@@ -524,7 +590,9 @@
       "romaji": "otoko"
     },
     "commonWords": [
-      "男の子 (おとこのこ, otokonoko) - boy"
+      "男の子 (おとこのこ, otokonoko) - boy",
+      "男性 (だんせい, dansei) - man, male",
+      "男らしい (おとこらしい, otokorashii) - manly"
     ]
   },
   {
@@ -540,7 +608,9 @@
       "romaji": "chikara"
     },
     "commonWords": [
-      "力仕事 (ちからしごと, chikarashigoto) - physical labor"
+      "力仕事 (ちからしごと, chikarashigoto) - physical labor",
+      "能力 (のうりょく, nouryoku) - ability",
+      "実力 (じつりょく, jitsuryoku) - real ability"
     ]
   },
   {
@@ -556,7 +626,9 @@
       "romaji": "ko"
     },
     "commonWords": [
-      "子供 (こども, kodomo) - child"
+      "子供 (こども, kodomo) - child",
+      "女子 (じょし, joshi) - girl",
+      "男子 (だんし, danshi) - boy"
     ]
   },
   {
@@ -572,7 +644,9 @@
       "romaji": "kuchi"
     },
     "commonWords": [
-      "入口 (いりぐち, iriguchi) - entrance"
+      "入口 (いりぐち, iriguchi) - entrance",
+      "出口 (でぐち, deguchi) - exit",
+      "人口 (じんこう, jinkou) - population"
     ]
   },
   {
@@ -588,7 +662,9 @@
       "romaji": "te"
     },
     "commonWords": [
-      "手紙 (てがみ, tegami) - letter"
+      "手紙 (てがみ, tegami) - letter",
+      "手袋 (てぶくろ, tebukuro) - gloves",
+      "手伝う (てつだう, tetsudau) - to help"
     ]
   },
   {
@@ -604,7 +680,9 @@
       "romaji": "ashi"
     },
     "commonWords": [
-      "足首 (あしくび, ashikubi) - ankle"
+      "足首 (あしくび, ashikubi) - ankle",
+      "足りる (たりる, tariru) - to suffice",
+      "足音 (あしおと, ashioto) - footsteps"
     ]
   },
   {
@@ -620,7 +698,9 @@
       "romaji": "me"
     },
     "commonWords": [
-      "目薬 (めぐすり, megusuri) - eye drops"
+      "目薬 (めぐすり, megusuri) - eye drops",
+      "目的 (もくてき, mokuteki) - purpose",
+      "目上 (めうえ, meue) - one's superior"
     ]
   },
   {
@@ -636,7 +716,9 @@
       "romaji": "mimi"
     },
     "commonWords": [
-      "耳鼻科 (じびか, jibika) - ENT doctor"
+      "耳鼻科 (じびか, jibika) - ENT doctor",
+      "耳鳴り (みみなり, miminari) - tinnitus",
+      "耳打ち (みみうち, mimiuchi) - whisper in someone's ear"
     ]
   },
   {
@@ -652,7 +734,8 @@
       "romaji": "hayashi"
     },
     "commonWords": [
-      "小林 (こばやし, Kobayashi) - common surname"
+      "小林 (こばやし, Kobayashi) - common surname",
+      "林業 (りんぎょう, ringyou) - forestry"
     ]
   },
   {
@@ -668,7 +751,9 @@
       "romaji": "mori"
     },
     "commonWords": [
-      "森林 (しんりん, shinrin) - forest, woodlands"
+      "森林 (しんりん, shinrin) - forest, woodlands",
+      "森田 (もりた, Morita) - common surname",
+      "森の中 (もりのなか, mori no naka) - in the forest"
     ]
   },
   {
@@ -684,7 +769,9 @@
       "romaji": "mura"
     },
     "commonWords": [
-      "村人 (むらびと, murabito) - villager"
+      "村人 (むらびと, murabito) - villager",
+      "村長 (そんちょう, sonchou) - village chief",
+      "農村 (のうそん, nouson) - farming village"
     ]
   },
   {
@@ -700,7 +787,9 @@
       "romaji": "ta"
     },
     "commonWords": [
-      "田んぼ (たんぼ, tanbo) - rice paddy"
+      "田んぼ (たんぼ, tanbo) - rice paddy",
+      "田舎 (いなか, inaka) - countryside",
+      "油田 (ゆでん, yuden) - oil field"
     ]
   },
   {
@@ -716,7 +805,9 @@
       "romaji": "machi"
     },
     "commonWords": [
-      "町長 (ちょうちょう, chouchou) - town mayor"
+      "町長 (ちょうちょう, chouchou) - town mayor",
+      "町中 (まちなか, machi naka) - downtown",
+      "下町 (したまち, shitamachi) - old part of town"
     ]
   },
   {
@@ -732,7 +823,9 @@
       "romaji": "yama"
     },
     "commonWords": [
-      "富士山 (ふじさん, fujisan) - Mt. Fuji"
+      "富士山 (ふじさん, fujisan) - Mt. Fuji",
+      "山道 (やまみち, yamamichi) - mountain path",
+      "登山 (とざん, tozan) - mountain climbing"
     ]
   },
   {
@@ -748,7 +841,9 @@
       "romaji": "kawa"
     },
     "commonWords": [
-      "川岸 (かわぎし, kawagishi) - riverbank"
+      "川岸 (かわぎし, kawagishi) - riverbank",
+      "川上 (かわかみ, kawakami) - upstream",
+      "川下 (かわしも, kawashimo) - downstream"
     ]
   },
   {
@@ -764,7 +859,9 @@
       "romaji": "hana"
     },
     "commonWords": [
-      "花瓶 (かびん, kabin) - vase"
+      "花瓶 (かびん, kabin) - vase",
+      "花見 (はなみ, hanami) - cherry blossom viewing",
+      "花火 (はなび, hanabi) - fireworks"
     ]
   },
   {
@@ -780,7 +877,9 @@
       "romaji": "kusa"
     },
     "commonWords": [
-      "草原 (そうげん, sougen) - grassland"
+      "草原 (そうげん, sougen) - grassland",
+      "草花 (くさばな, kusabana) - flowers and plants",
+      "雑草 (ざっそう, zassou) - weed"
     ]
   },
   {
@@ -796,7 +895,9 @@
       "romaji": "take"
     },
     "commonWords": [
-      "竹林 (ちくりん, chikurin) - bamboo grove"
+      "竹林 (ちくりん, chikurin) - bamboo grove",
+      "竹の子 (たけのこ, takenoko) - bamboo shoot",
+      "竹刀 (しない, shinai) - bamboo sword (kendo)"
     ]
   },
   {
@@ -812,7 +913,9 @@
       "romaji": "inu"
     },
     "commonWords": [
-      "子犬 (こいぬ, koinu) - puppy"
+      "子犬 (こいぬ, koinu) - puppy",
+      "犬小屋 (いぬごや, inugoya) - doghouse",
+      "番犬 (ばんけん, banken) - guard dog"
     ]
   },
   {
@@ -828,7 +931,9 @@
       "romaji": "mushi"
     },
     "commonWords": [
-      "昆虫 (こんちゅう, konchuu) - insect"
+      "昆虫 (こんちゅう, konchuu) - insect",
+      "虫歯 (むしば, mushiba) - cavity",
+      "害虫 (がいちゅう, gaichuu) - pest"
     ]
   },
   {
@@ -844,7 +949,9 @@
       "romaji": "kai"
     },
     "commonWords": [
-      "貝殻 (かいがら, kaigara) - seashell"
+      "貝殻 (かいがら, kaigara) - seashell",
+      "貝類 (かいるい, kairui) - shellfish",
+      "貝柱 (かいばしら, kaibashira) - scallop adductor muscle"
     ]
   },
   {
@@ -860,7 +967,9 @@
       "romaji": "ishi"
     },
     "commonWords": [
-      "石鹸 (せっけん, sekken) - soap"
+      "石鹸 (せっけん, sekken) - soap",
+      "石田 (いしだ, Ishida) - common surname",
+      "宝石 (ほうせき, houseki) - gem, jewel"
     ]
   },
   {
@@ -876,7 +985,9 @@
       "romaji": ""
     },
     "commonWords": [
-      "王様 (おうさま, ousama) - king"
+      "王様 (おうさま, ousama) - king",
+      "女王 (じょおう, jo'ou) - queen",
+      "王国 (おうこく, oukoku) - kingdom"
     ]
   },
   {
@@ -892,7 +1003,8 @@
       "romaji": "tama"
     },
     "commonWords": [
-      "玉ねぎ (たまねぎ, tamanegi) - onion (lit. “ball onion”)"
+      "玉ねぎ (たまねぎ, tamanegi) - onion (lit. 'ball onion')",
+      "お年玉 (おとしだま, otoshidama) - New Year's gift money"
     ]
   },
   {
@@ -908,7 +1020,9 @@
       "romaji": "tada / masa"
     },
     "commonWords": [
-      "正しい (ただしい, tadashii) - correct"
+      "正しい (ただしい, tadashii) - correct",
+      "正月 (しょうがつ, shougatsu) - New Year",
+      "正解 (せいかい, seikai) - correct answer"
     ]
   },
   {
@@ -924,7 +1038,9 @@
       "romaji": ""
     },
     "commonWords": [
-      "系列 (けいれつ, keiretsu) - series, system"
+      "系列 (けいれつ, keiretsu) - series, system",
+      "家系 (かけい, kakei) - family lineage",
+      "体系 (たいけい, taikei) - system, structure"
     ]
   },
   {
@@ -940,7 +1056,9 @@
       "romaji": "kuruma"
     },
     "commonWords": [
-      "電車 (でんしゃ, densha) - train"
+      "電車 (でんしゃ, densha) - train",
+      "車椅子 (くるまいす, kurumaisu) - wheelchair",
+      "自転車 (じてんしゃ, jitensha) - bicycle"
     ]
   },
   {
@@ -956,7 +1074,9 @@
       "romaji": "mi"
     },
     "commonWords": [
-      "見る (みる, miru) - to see"
+      "見る (みる, miru) - to see",
+      "見せる (みせる, miseru) - to show",
+      "意見 (いけん, iken) - opinion"
     ]
   },
   {
@@ -972,7 +1092,9 @@
       "romaji": "oto / ne"
     },
     "commonWords": [
-      "音楽 (おんがく, ongaku) - music"
+      "音楽 (おんがく, ongaku) - music",
+      "発音 (はつおん, hatsuon) - pronunciation",
+      "音色 (ねいろ, neiro) - tone color, timbre"
     ]
   },
   {
@@ -988,7 +1110,9 @@
       "romaji": "mana"
     },
     "commonWords": [
-      "学校 (がっこう, gakkou) - school"
+      "学校 (がっこう, gakkou) - school",
+      "学ぶ (まなぶ, manabu) - to learn",
+      "科学 (かがく, kagaku) - science"
     ]
   },
   {
@@ -1004,7 +1128,9 @@
       "romaji": ""
     },
     "commonWords": [
-      "校庭 (こうてい, koutei) - schoolyard"
+      "校庭 (こうてい, koutei) - schoolyard",
+      "高校 (こうこう, koukou) - high school",
+      "校歌 (こうか, kouka) - school song"
     ]
   },
   {
@@ -1020,7 +1146,9 @@
       "romaji": "saki / mazu"
     },
     "commonWords": [
-      "先生 (せんせい, sensei) - teacher"
+      "先生 (せんせい, sensei) - teacher",
+      "先月 (せんげつ, sengetsu) - last month",
+      "先に (さきに, sakini) - ahead, before"
     ]
   },
   {
@@ -1036,7 +1164,8 @@
       "romaji": "i / u / nama"
     },
     "commonWords": [
-      "生きる (いきる, ikiru) - to live"
+      "生きる (いきる, ikiru) - to live",
+      "生まれる (うまれる, umareru) - to be born"
     ]
   },
   {
@@ -1052,7 +1181,9 @@
       "romaji": "toshi"
     },
     "commonWords": [
-      "来年 (らいねん, rainen) - next year"
+      "来年 (らいねん, rainen) - next year",
+      "今年 (ことし, kotoshi) - this year",
+      "年上 (としうえ, toshiue) - older person"
     ]
   },
   {
@@ -1068,7 +1199,9 @@
       "romaji": "na"
     },
     "commonWords": [
-      "名前 (なまえ, namae) - name"
+      "名前 (なまえ, namae) - name",
+      "有名 (ゆうめい, yuumei) - famous",
+      "名刺 (めいし, meishi) - business card"
     ]
   },
   {
@@ -1084,7 +1217,9 @@
       "romaji": "aza"
     },
     "commonWords": [
-      "文字 (もじ, moji) - letter, character"
+      "文字 (もじ, moji) - letter, character",
+      "漢字 (かんじ, kanji) - Chinese character",
+      "数字 (すうじ, suuji) - numeral"
     ]
   },
   {
@@ -1100,7 +1235,9 @@
       "romaji": "fumi"
     },
     "commonWords": [
-      "文化 (ぶんか, bunka) - culture"
+      "文化 (ぶんか, bunka) - culture",
+      "作文 (さくぶん, sakubun) - composition",
+      "文法 (ぶんぽう, bunpou) - grammar"
     ]
   },
   {
@@ -1116,7 +1253,9 @@
       "romaji": "moto"
     },
     "commonWords": [
-      "本屋 (ほんや, honya) - bookstore"
+      "本屋 (ほんや, honya) - bookstore",
+      "本当 (ほんとう, hontou) - truth, reality",
+      "本気 (ほんき, honki) - seriousness"
     ]
   },
   {
@@ -1132,7 +1271,9 @@
       "romaji": "sora / a(ku)"
     },
     "commonWords": [
-      "空港 (くうこう, kuukou) - airport"
+      "空港 (くうこう, kuukou) - airport",
+      "空気 (くうき, kuuki) - air",
+      "空っぽ (からっぽ, karappo) - empty"
     ]
   },
   {
@@ -1148,7 +1289,9 @@
       "romaji": "ame"
     },
     "commonWords": [
-      "大雨 (おおあめ, ooame) - heavy rain"
+      "大雨 (おおあめ, ooame) - heavy rain",
+      "雨季 (うき, uki) - rainy season",
+      "小雨 (こさめ, kosame) - light rain"
     ]
   },
   {
@@ -1164,7 +1307,9 @@
       "romaji": "ama"
     },
     "commonWords": [
-      "天気 (てんき, tenki) - weather"
+      "天気 (てんき, tenki) - weather",
+      "天国 (てんごく, tengoku) - heaven",
+      "天下 (てんか, tenka) - the world, under heaven"
     ]
   },
   {
@@ -1180,7 +1325,9 @@
       "romaji": ""
     },
     "commonWords": [
-      "天気 (てんき, tenki) - weather"
+      "天気 (てんき, tenki) - weather",
+      "気持ち (きもち, kimochi) - feeling",
+      "元気 (げんき, genki) - healthy, energetic"
     ]
   },
   {
@@ -1196,7 +1343,9 @@
       "romaji": "haya"
     },
     "commonWords": [
-      "早い (はやい, hayai) - early, fast"
+      "早い (はやい, hayai) - early, fast",
+      "早起き (はやおき, hayaoki) - getting up early",
+      "早口 (はやくち, hayakuchi) - fast talking"
     ]
   },
   {
@@ -1212,7 +1361,10 @@
       "romaji": "i / hai"
     },
     "commonWords": [
-      "入る (はいる, hairu) - to enter"
+      "入る (はいる, hairu) - to enter",
+      "入口 (いりぐち, iriguchi) - entrance",
+      "入力 (にゅうりょく, nyuuryoku) - input",
+      "入学 (にゅうがく, nyuugaku) - entering school"
     ]
   },
   {
@@ -1228,7 +1380,9 @@
       "romaji": "de / da"
     },
     "commonWords": [
-      "出る (でる, deru) - to exit"
+      "出る (でる, deru) - to exit",
+      "出かける (でかける, dekakeru) - to go out",
+      "思い出 (おもいで, omoide) - memories"
     ]
   },
   {
@@ -1244,7 +1398,9 @@
       "romaji": "ta"
     },
     "commonWords": [
-      "立つ (たつ, tatsu) - to stand"
+      "立つ (たつ, tatsu) - to stand",
+      "立場 (たちば, tachiba) - standpoint",
+      "国立 (こくりつ, kokuritsu) - national"
     ]
   },
   {
@@ -1260,7 +1416,9 @@
       "romaji": "yasu"
     },
     "commonWords": [
-      "休む (やすむ, yasumu) - to rest"
+      "休む (やすむ, yasumu) - to rest",
+      "休暇 (きゅうか, kyuuka) - vacation",
+      "定休日 (ていきゅうび, teikyuubi) - regular holiday"
     ]
   },
   {
@@ -1276,7 +1434,9 @@
       "romaji": "yuu"
     },
     "commonWords": [
-      "夕方 (ゆうがた, yuugata) - early evening"
+      "夕方 (ゆうがた, yuugata) - early evening",
+      "夕食 (ゆうしょく, yuushoku) - dinner",
+      "夕日 (ゆうひ, yuuhi) - evening sun"
     ]
   }
 ]

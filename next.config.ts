@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: "/japanese-kanji-cards",
+  basePath: process.env.NODE_ENV === "production" ? "/japanese-kanji-cards" : "",
 
   /**
    * Disable server-based image optimization. Next.js does not support
