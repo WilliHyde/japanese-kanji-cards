@@ -40,10 +40,14 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
           <dd className={clsx(styles.dd)}>
             {kanjiInfo.onYomi.katakana} ({kanjiInfo.onYomi.romaji})
           </dd>
-          <dt className={clsx(styles.dt)}>Kun&apos;yomi</dt> 
-          <dd className={clsx(styles.dd)}>
-            {kanjiInfo.kunYomi.hiragana} ({kanjiInfo.kunYomi.romaji})
-          </dd>
+          {kanjiInfo.kunYomi.hiragana && (
+            <>
+              <dt className={clsx(styles.dt)}>Kun&apos;yomi</dt>
+              <dd className={clsx(styles.dd)}>
+                {kanjiInfo.kunYomi.hiragana} ({kanjiInfo.kunYomi.romaji})
+              </dd>
+            </>
+          )}
           <dt className={clsx(styles.dt)}>Words</dt>
           <dd className={clsx(styles.dd, styles['common-words'])}>
             {kanjiInfo.commonWords.map((word, index) => (
