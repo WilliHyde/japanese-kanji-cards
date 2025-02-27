@@ -3,7 +3,7 @@
   --background: light-dark(#fefefe, #181818);
   --foreground: light-dark(#181818, #fefefe);
 
-  --btn-box-shadow-transition: box-shadow 250ms ease-in-out;
+  --btn-box-shadow-transition: box-shadow 250ms ease-out;
   --btn-box-shadow: 0 0 20px hsl(from var(--foreground) h s l / 0.1);
   --btn-box-shadow-hover:
       0 0 0 2px hsl(from var(--foreground) h s l / 0.18), 

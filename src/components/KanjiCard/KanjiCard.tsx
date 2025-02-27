@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import styles from "./KanjiCard.module.css";
 import { clsx } from 'clsx';
 import { Kanji } from '@/types/kanji';
-import { EyeOff, HeartCrack } from 'lucide-react';
+import { HeartCrack } from 'lucide-react';
 import Button, { ButtonSize } from '../Button/Button';
 
 interface KanjiCardProps {
@@ -30,7 +30,7 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
       </button>
       <div className={clsx(styles.back)}>
         <div className={clsx(styles['kanji-characters'])}>
-          <h2 className={clsx(styles['sub-title'])}>{kanjiInfo.kanji}</h2>
+          <h2 className={clsx(styles['kanji-fancy'])}>{kanjiInfo.kanji}</h2>
           <h2 className={clsx(styles['kanji-stroke'])}>{kanjiInfo.kanji}</h2>
         </div>
         <dl className={clsx(styles['kanji-info'])}>
@@ -56,8 +56,7 @@ const KanjiCard: React.FC<KanjiCardProps> = ({ kanjiInfo }) => {
           </dd>
         </dl>
         <Button size={ButtonSize.Large} onClick={() => setCardPosition(!cardPosition)}>
-          <EyeOff />
-          <span>Hide Answer</span>
+          Hide Answer
         </Button>
       </div>
     </div>

@@ -5,8 +5,9 @@ import { clsx } from 'clsx';
 import KanjiCard from "@/components/KanjiCard/KanjiCard";
 import Navigation from "@/components/Navigation/Navigation";
 import NavLink from "@/components/NavLink/NavLink";
-import { ArrowLeft, ArrowRight, Dices, Grid3x3, House } from "lucide-react";
+import { CircleChevronLeft, CircleChevronRight, Dices, Grid3x3, House } from "lucide-react";
 import { fetchKanjiData } from "@/utils/fetchKanjiData";
+import Link from "next/link";
 
 const kanjiData: Kanji[] = await fetchKanjiData();
 
@@ -62,19 +63,31 @@ export default async function Page({
 
   return (
     <>
-      <div className={clsx('g-layout-content')}>
+      <div className={clsx('g-layout-content', styles.container)}>
+        <div className={clsx(styles['kanji-nav'], styles.prev)}>
+          <Link
+            href={`/kanji/${prevKanji.kanji}`}
+            aria-label={`Previous Kanji ${prevKanji.kanji}`}
+            className={clsx(styles['kanji-link'])}
+          >
+            <CircleChevronLeft className={clsx(styles['kanji-arrow'])} />
+            {prevKanji.kanji}
+          </Link>
+        </div>
         <KanjiCard kanjiInfo={kanjiInfo} />
+        <div className={clsx(styles['kanji-nav'], styles.next)}> 
+          <Link
+            href={`/kanji/${nextKanji.kanji}`}
+            aria-label={`Next Kanji ${nextKanji.kanji}`}
+            className={clsx(styles['kanji-link'])}
+          >
+            {nextKanji.kanji}
+            <CircleChevronRight className={clsx(styles['kanji-arrow'])} />
+          </Link>
+        </div>
       </div>
       <Navigation>
         <div className={clsx(styles.nav)}>
-          <NavLink 
-            href={`/kanji/${prevKanji.kanji}`}
-            ariaLabel="Previous Kanji"
-            disabled={!kanjiInfo}
-            className={clsx(styles['prev-btn'])}
-          >
-            <ArrowLeft />
-          </NavLink>
           <NavLink href="/" ariaLabel="Home">
             <House />
           </NavLink>
@@ -83,14 +96,6 @@ export default async function Page({
           </NavLink>
           <NavLink href={`/kanji/${randomKanji.kanji}`} ariaLabel="Random Kanji">
             <Dices />
-          </NavLink>
-          <NavLink
-            href={`/kanji/${nextKanji.kanji}`}
-            ariaLabel="Next Kanji"  
-            disabled={!kanjiInfo}
-            className={clsx(styles['next-btn'])}
-          >
-            <ArrowRight />
           </NavLink>
         </div>
       </Navigation>

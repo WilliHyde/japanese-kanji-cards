@@ -20,25 +20,28 @@ export default async function Page() {
 
   return (
     <>
-    <div className={clsx('g-layout-content', styles.container)}>
-      <div className={clsx(styles.grid)}>
-        {kanjiData.map((kanji) => (
-          <Link className={clsx(styles.box)} key={kanji.id} href={`/kanji/${kanji.kanji}`}>
-            {kanji.kanji}
-          </Link>
-        ))}
+      <div className={clsx('g-layout-content', styles.container)}>
+        <div className={clsx(styles.grid)}>
+          {kanjiData.map((kanji) => (
+            <Link className={clsx(styles.box)} key={kanji.id} href={`/kanji/${kanji.kanji}`}>
+              {kanji.kanji}
+            </Link>
+          ))}
+        </div>
       </div>
-    </div>
       <Navigation>
         <div className={clsx(styles.nav)}>
           <NavLink href={'/'}>
             <House />
-            <span>Home</span>
           </NavLink>
           <NavLink href={`/kanji/${randomKanji.kanji}`}>
             <Dices />
-            <span>Random Kanji</span>
           </NavLink>
+          {/* TODO: Implement settings dialog
+          <NavLinkButton ariaLabel="Settings">
+            <Settings />
+          </NavLinkButton>
+           */}
         </div>
       </Navigation>
     </>

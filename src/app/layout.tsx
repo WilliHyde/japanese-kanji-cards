@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans, Noto_Sans_JP } from "next/font/google";
+import { Noto_Sans, Noto_Sans_JP, Shippori_Mincho } from "next/font/google";
 import { BASE_TITLE } from "@/config/constants";
 import localFont from 'next/font/local'
 import "./globals.css";
@@ -22,6 +22,12 @@ const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
 });
 
+const shipporiMincho = Shippori_Mincho({
+  variable: "--font-shippori-mincho",
+  subsets: ["latin"],
+  weight: "400"
+});
+
 export const metadata: Metadata = {
   title: BASE_TITLE,
   description: "Japanese 2 Kanji Flashcard Learning App",
@@ -38,6 +44,7 @@ export default function RootLayout({
       <body className={clsx(`
         ${notoSans.variable}
         ${notoSansJp.variable} 
+        ${shipporiMincho.variable}
         ${kanjiStrokeOrders.variable}
       `)}>
         <div className={clsx('g-layout g-wrap')}>{children}</div>

@@ -5,6 +5,8 @@
   column-gap: 5px;
   font-weight: 700;
   transition: var(--btn-box-shadow-transition);
+  background-color: transparent;
+  border: unset;
 
   &.disabled {
     opacity: 0.45;
